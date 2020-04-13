@@ -1,6 +1,18 @@
 # [`react-native`](https://reactnative.dev/docs/environment-setup)
 
-## init
+## react-native cli
+
+```sh
+npm i -g react-native-cli
+
+npx react-native init projectname
+
+cd project
+
+npx react-native run-android
+```
+
+## expo
 
 - [`node 12 lts`](https://nodejs.org/ko/) install
 - install expo-cli
@@ -15,7 +27,7 @@ npm install -g expo-cli
 expo init projectname
 ```
 
-## project is ready!
+- project is ready!
 
 ```sh
 cd awesome
@@ -29,9 +41,3 @@ yarn ios # requires an iOS device or access to a macOS for a simulator
 
 yarn web
 ```
-
-### android studio emulator
-
-[`expo managed workfow`](https://docs.expo.io/versions/v33.0.0/workflow/android-studio-emulator/)
-
-- configure > sdk manager
