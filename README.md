@@ -2,17 +2,27 @@
 
 ## react-native cli
 
+- install react-native-cli
+
 ```sh
 npm i -g react-native-cli
+```
 
-npx react-native init projectname
+- init
 
-cd project
+```sh
+npx react-native init awesome
+```
+
+- project start
+
+```sh
+cd awesome
 
 npx react-native run-android
 ```
 
-## expo
+## expo-cli
 
 - [`node 12 lts`](https://nodejs.org/ko/) install
 - install expo-cli
@@ -24,10 +34,18 @@ npm install -g expo-cli
 - init project
 
 ```sh
-expo init projectname
+expo init expoawesome
+
+  ----- Managed workflow -----
+  blank                 a minimal app as clean as an empty canvas
+  blank (TypeScript)    same as blank but with TypeScript configuration
+  tabs                  several example screens and tabs using react-navigation
+  ----- Bare workflow -----
+  minimal               bare and minimal, just the essentials to get you started
+  minimal (TypeScript)  same as minimal but with TypeScript configuration
 ```
 
-- project is ready!
+- project start
 
 ```sh
 cd awesome
